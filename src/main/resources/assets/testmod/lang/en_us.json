@@ -1,4 +1,7 @@
 {
-  "item.testmod.amethyst": "Amethyst"
+  "item.testmod.amethyst": "Amethyst",
+
+  "itemGroup.testModTab": "Test Mod"
+
 }
 

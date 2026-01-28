@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.MOD_GROUP)));
 
 
     public static void register(IEventBus eventBus) {
