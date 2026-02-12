@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "$#$",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:amethyst"
+    },
+    "$": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "testmod:amethyst_ore"
+  }
+}
