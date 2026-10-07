@@ -1,6 +1,7 @@
 package com.ManImDead.testmod.item;
 
 import com.ManImDead.testmod.TestMod;
+import com.ManImDead.testmod.item.custom.Firestone;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +15,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties().tab(ModItemGroup.MOD_GROUP)));
+    public static final RegistryObject<Item> FIRESTONE = ITEMS.register("firestone",
+            () -> new Firestone(new Item.Properties().tab(ModItemGroup.MOD_GROUP).durability(8)));
 
 
     public static void register(IEventBus eventBus) {
